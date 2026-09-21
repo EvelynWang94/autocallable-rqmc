@@ -1,0 +1,9 @@
+Dataset / check,Evidence,Status,Use in Day 2
+Current SPX/NDX/RTY market inputs,"3/3 spots, 3/3 yields, 3/3 vols",PASS,Core
+Aligned underlying closes,251 common dates,PASS,Historical correlation
+Correlation positive semidefinite,minimum eigenvalue 0.054852,PASS,Correlated path interface
+Positive SOFR proxy,4.1398%,PASS,Discounting
+Pricing-to-issue date gap,6 calendar days,PASS,Not used; confirm before note pricing
+Official note initial references,3/3 positive,PASS,Issuer_Initial_Value supplement; frozen for later note pricing
+Valid historical note prices,0 positive observations,NOT REQUIRED,Later live-note market validation only
+Valid listed-option quotes,0 two-sided contracts,NOT REQUIRED,Analytic Black-Scholes validation used

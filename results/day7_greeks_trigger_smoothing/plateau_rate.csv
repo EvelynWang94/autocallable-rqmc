@@ -1,0 +1,21 @@
+scenario,method,greek,plateau_rate,uncertainty_consistent_rate,groups
+near-KI,M0,Delta,0.6666666666666666,1.0,3
+near-KI,M0,Gamma,0.0,1.0,3
+near-KI,M0,Parallel Gamma,0.0,1.0,1
+near-KI,M0,Parallel Vega,1.0,1.0,1
+near-KI,M0,Vega,1.0,1.0,3
+near-KI,M3,Delta,0.6666666666666666,0.6666666666666666,3
+near-KI,M3,Gamma,0.0,1.0,3
+near-KI,M3,Parallel Gamma,0.0,1.0,1
+near-KI,M3,Parallel Vega,1.0,1.0,1
+near-KI,M3,Vega,0.6666666666666666,0.6666666666666666,3
+near-autocall,M0,Delta,0.6666666666666666,1.0,3
+near-autocall,M0,Gamma,0.3333333333333333,1.0,3
+near-autocall,M0,Parallel Gamma,0.0,1.0,1
+near-autocall,M0,Parallel Vega,1.0,1.0,1
+near-autocall,M0,Vega,0.6666666666666666,1.0,3
+near-autocall,M3,Delta,0.3333333333333333,1.0,3
+near-autocall,M3,Gamma,0.3333333333333333,1.0,3
+near-autocall,M3,Parallel Gamma,0.0,1.0,1
+near-autocall,M3,Parallel Vega,1.0,1.0,1
+near-autocall,M3,Vega,0.6666666666666666,1.0,3

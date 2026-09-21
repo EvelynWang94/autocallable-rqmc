@@ -1,0 +1,469 @@
+{
+  "schema_version": "2.0",
+  "status": "frozen",
+  "frozen_at": "2026-07-30",
+  "project": {
+    "title": "Correlated GBM, Three-Asset Autocallable, RQMC, Survival Conditioning and Greeks",
+    "canonical_notebooks": [
+      "Day1_Contract_Layers_Component_Schema.ipynb",
+      "Day2_HSBC_M1_RQMC_European_Validation.ipynb",
+      "Day3_Barrier_Conditioning_MC_RQMC_Greeks.ipynb",
+      "Day3B_Single_Asset_Exact_Brownian_Bridge_Validation.ipynb",
+      "Day4_Lee_Exit_Probability_Reproduction.ipynb",
+      "Day5_Three_Asset_Direct_Autocallable_Fair_Coupon.ipynb",
+      "Day6_Three_Asset_BB_Conditioning_M2_M3.ipynb",
+      "Day7_Greeks_and_Discrete_Trigger_Smoothing.ipynb",
+      "Day8_GPU_Implementation_and_Validation.ipynb",
+      "Day9_Main_Experiments_and_Pareto_Frontier.ipynb"
+    ],
+    "legacy_notebook": "Autocallable_Core_Experiments.ipynb"
+  },
+  "market_data": {
+    "relative_path": "Data/Bloomberg_Real_Autocallable_Market_Data_HSBC.xlsx",
+    "sha256": "CD84790399F9CDA5C5B0ED3E95D973216314CA54DD4BDBA6D9D22C399DBD49E6",
+    "as_of_date": "2026-07-27",
+    "source": "Bloomberg workbook with issuer initial-value supplement",
+    "canonical": true
+  },
+  "security": {
+    "bloomberg_id": "40447DKU1 Corp",
+    "cusip": "40447DKU1",
+    "isin": "US40447DKU18",
+    "issuer": "HSBC",
+    "product": "Autocallable Contingent Income Barrier Notes with Memory Coupon"
+  },
+  "underlyings": [
+    {
+      "ticker": "SPX",
+      "name": "S&P 500 Index",
+      "initial_reference": 6664.01,
+      "barrier_level": 4998.0075,
+      "reference_source": "Issuer_Initial_Value!C38"
+    },
+    {
+      "ticker": "NDX",
+      "name": "Nasdaq-100 Index",
+      "initial_reference": 24817.95,
+      "barrier_level": 18613.4625,
+      "reference_source": "Issuer_Initial_Value!C39"
+    },
+    {
+      "ticker": "RTY",
+      "name": "Russell 2000 Index",
+      "initial_reference": 2452.173,
+      "barrier_level": 1839.12975,
+      "reference_source": "Issuer_Initial_Value!C40"
+    }
+  ],
+  "term_sheet": {
+    "currency": "USD",
+    "principal": 1000.0,
+    "pricing_date": "2025-10-17",
+    "trade_date": "2025-10-20",
+    "issue_date": "2025-10-23",
+    "maturity_date": "2027-10-25",
+    "coupon_frequency": "quarterly",
+    "coupon_per_observation": 0.021875,
+    "coupon_annualized": 0.0875,
+    "coupon_memory": true,
+    "coupon_trigger_ratio": 0.75,
+    "autocall_trigger_ratio": 1.0,
+    "barrier_ratio": 0.75,
+    "knock_in_monitoring": "maturity only",
+    "payoff_basket": "worst of SPX, NDX and RTY",
+    "issuer_initial_estimated_value_usd": 962.97,
+    "issuer_initial_estimated_value_per_100": 96.297
+  },
+  "observation_schedule": [
+    {
+      "observation_date": "2026-01-21",
+      "coupon": true,
+      "autocall": false
+    },
+    {
+      "observation_date": "2026-04-22",
+      "coupon": true,
+      "autocall": true
+    },
+    {
+      "observation_date": "2026-07-22",
+      "coupon": true,
+      "autocall": true
+    },
+    {
+      "observation_date": "2026-10-21",
+      "coupon": true,
+      "autocall": true
+    },
+    {
+      "observation_date": "2027-01-20",
+      "coupon": true,
+      "autocall": true
+    },
+    {
+      "observation_date": "2027-04-21",
+      "coupon": true,
+      "autocall": true
+    },
+    {
+      "observation_date": "2027-07-21",
+      "coupon": true,
+      "autocall": true
+    },
+    {
+      "observation_date": "2027-10-20",
+      "coupon": true,
+      "autocall": true
+    }
+  ],
+  "scope_boundary": {
+    "day_1_to_3": "European-engine validation and single-asset barrier-estimator validation under GBM",
+    "current_note_price_history": "unavailable; not required for Day 1-3 method validation",
+    "listed_option_surface": "unavailable; Day 2 uses analytic Black-Scholes validation",
+    "barrier_experiment": "normalised single-asset monthly monitored down-and-out call; a methodological bridge, not the HSBC note payoff",
+    "later_core": "three-asset worst-of autocallable, GPU implementation, Delta/Vega/Gamma",
+    "extensions": "Heston and machine learning"
+  },
+  "layered_at": "2026-08-04",
+  "market_case": {
+    "id": "HSBC-40447DKU1",
+    "label": "HSBC maturity-only note",
+    "layer": "market_case",
+    "canonical": true,
+    "security_reference": "security",
+    "term_sheet_reference": "term_sheet",
+    "observation_schedule_reference": "observation_schedule",
+    "market_data_reference": "market_data",
+    "knock_in_monitoring": "maturity only",
+    "model_use": "issuer term-sheet and market-data case; not the continuous-KI research contract"
+  },
+  "research_contracts": {
+    "RC-L": {
+      "label": "Lee reproduction contract",
+      "layer": "research_contract",
+      "purpose": "independent Lee et al. (2024) numerical reproduction",
+      "underlyings": [
+        "Asset 1",
+        "Asset 2",
+        "Asset 3"
+      ],
+      "normalised_initial_levels": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "principal": 100.0,
+      "maturity_years": 3.0,
+      "observation_times_years": [
+        0.5,
+        1.0,
+        1.5,
+        2.0,
+        2.5,
+        3.0
+      ],
+      "autocall_barrier_ratios": [
+        0.9,
+        0.9,
+        0.85,
+        0.85,
+        0.8,
+        0.8
+      ],
+      "knock_in": {
+        "monitoring": "continuous",
+        "barrier_ratio": 0.45,
+        "event": "minimum of any underlying over [0,T] <= barrier"
+      },
+      "coupon": {
+        "baseline_annual_rate": 0.06,
+        "memory": false,
+        "accrual_convention": "simple annual rate accrued from issue to redemption; redemption coupon is C * t"
+      },
+      "symmetric_parameter_grid": {
+        "risk_free_rates": [
+          0.03,
+          0.04
+        ],
+        "volatilities": [
+          0.2,
+          0.3
+        ],
+        "equicorrelations": [
+          0.4,
+          0.6
+        ],
+        "dividend_yields": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "claim_boundary": "research reproduction contract; never presented as the HSBC security"
+    },
+    "RC-A": {
+      "label": "Market-informed applied continuous-KI contract",
+      "layer": "research_contract",
+      "purpose": "stylised applied experiments under continuous KI",
+      "underlyings": [
+        "SPX",
+        "NDX",
+        "RTY"
+      ],
+      "normalised_initial_levels": [
+        100.0,
+        100.0,
+        100.0
+      ],
+      "principal": 100.0,
+      "market_inputs": {
+        "source_reference": "market_data",
+        "normalisation": "each underlying performance starts at 100"
+      },
+      "observation_schedule": [
+        {
+          "observation_date": "2026-01-21",
+          "coupon": true,
+          "autocall": false,
+          "time_years_act365": 0.26301369863013696,
+          "autocall_trigger_ratio": null,
+          "coupon_trigger_ratio": 0.75
+        },
+        {
+          "observation_date": "2026-04-22",
+          "coupon": true,
+          "autocall": true,
+          "time_years_act365": 0.5123287671232877,
+          "autocall_trigger_ratio": 1.0,
+          "coupon_trigger_ratio": 0.75
+        },
+        {
+          "observation_date": "2026-07-22",
+          "coupon": true,
+          "autocall": true,
+          "time_years_act365": 0.7616438356164383,
+          "autocall_trigger_ratio": 1.0,
+          "coupon_trigger_ratio": 0.75
+        },
+        {
+          "observation_date": "2026-10-21",
+          "coupon": true,
+          "autocall": true,
+          "time_years_act365": 1.010958904109589,
+          "autocall_trigger_ratio": 1.0,
+          "coupon_trigger_ratio": 0.75
+        },
+        {
+          "observation_date": "2027-01-20",
+          "coupon": true,
+          "autocall": true,
+          "time_years_act365": 1.2602739726027397,
+          "autocall_trigger_ratio": 1.0,
+          "coupon_trigger_ratio": 0.75
+        },
+        {
+          "observation_date": "2027-04-21",
+          "coupon": true,
+          "autocall": true,
+          "time_years_act365": 1.5095890410958903,
+          "autocall_trigger_ratio": 1.0,
+          "coupon_trigger_ratio": 0.75
+        },
+        {
+          "observation_date": "2027-07-21",
+          "coupon": true,
+          "autocall": true,
+          "time_years_act365": 1.7589041095890412,
+          "autocall_trigger_ratio": 1.0,
+          "coupon_trigger_ratio": 0.75
+        },
+        {
+          "observation_date": "2027-10-20",
+          "coupon": true,
+          "autocall": true,
+          "time_years_act365": 2.0082191780821916,
+          "autocall_trigger_ratio": 1.0,
+          "coupon_trigger_ratio": 0.75
+        }
+      ],
+      "autocall": {
+        "monitoring": "discrete observation dates only",
+        "trigger_ratio": 1.0,
+        "first_observation_is_coupon_only": true
+      },
+      "knock_in": {
+        "monitoring": "continuous",
+        "barrier_ratio": 0.75,
+        "event": "minimum of any normalised underlying over [0,T] <= 75"
+      },
+      "coupon": {
+        "baseline_annual_rate": 0.0875,
+        "frequency": "quarterly",
+        "memory": true,
+        "trigger_ratio": 0.75,
+        "accrual_convention": "annual simple rate C paid as C/4 per scheduled quarter; missed quarters accumulate and are paid on the next satisfied coupon observation",
+        "fair_coupon_variable": "annual simple rate C"
+      },
+      "claim_boundary": "stylised market-informed research contract; not HSBC 40447DKU1 and not an issuer or dealer market price"
+    }
+  },
+  "event_definitions": {
+    "continuous_knock_in": {
+      "time_domain": "all times in each interval",
+      "observation": "Brownian-bridge exit/non-exit probability",
+      "separate_from": "discrete_autocall"
+    },
+    "discrete_autocall": {
+      "time_domain": "scheduled autocall dates only",
+      "observation": "all underlying performances at or above trigger",
+      "separate_from": "continuous_knock_in"
+    }
+  },
+  "bump_policy": {
+    "spot_bump": "bump current spot/state only; contractual initial references and absolute barriers remain fixed",
+    "volatility_bump": "bump model volatility; contract terms remain fixed",
+    "crn": "reuse common random numbers across base and bumped valuations"
+  },
+  "valuation_scope_exclusions": [
+    "issuer credit spread",
+    "issuer funding spread",
+    "secondary-market liquidity",
+    "dealer margin and hedging charge"
+  ],
+  "component_schema": {
+    "currency_or_unit": "per 100 notional unless otherwise stated",
+    "additive_components": [
+      "coupon_value",
+      "early_redemption_principal",
+      "surviving_notional",
+      "terminal_ki_loss"
+    ],
+    "diagnostics": [
+      "no_ki_maturity_redemption",
+      "observation_date_redemption_probability",
+      "continuous_ki_survival_probability",
+      "fair_coupon"
+    ],
+    "identity": "total_value = coupon_value + early_redemption_principal + surviving_notional + terminal_ki_loss",
+    "field_definitions": {
+      "coupon_value": "present value of all coupon cash flows",
+      "early_redemption_principal": "present value of principal returned before maturity",
+      "surviving_notional": "present value of principal baseline when the note reaches maturity",
+      "no_ki_maturity_redemption": "diagnostic subset of surviving_notional with no continuous KI",
+      "terminal_ki_loss": "non-positive maturity adjustment after KI; zero otherwise",
+      "total_value": "sum of the four additive components",
+      "observation_date_redemption_probability": "probability mass redeemed at each observation date",
+      "continuous_ki_survival_probability": "probability that no asset touches the continuous KI barrier",
+      "fair_coupon": "annual coupon rate C* solving model value = par"
+    }
+  },
+  "validation_gates": {
+    "day_1": {
+      "contract_layers_do_not_mix": true,
+      "deterministic_path_count_required": [
+        8,
+        12
+      ],
+      "component_identity_tolerance": 1e-10,
+      "known_fair_coupon_root_tolerance": 1e-10,
+      "evidence_directory": "outputs/day1_contract_layers"
+    },
+    "day_5": {
+      "method": "M0 direct fine-grid Monte Carlo",
+      "lee_table7_price_tolerance_per_100": 1.25,
+      "lee_table7_fair_coupon_tolerance": 0.02,
+      "lee_table8_price_tolerance_per_100": 1.25,
+      "component_identity_tolerance": 1e-10,
+      "probability_mass_tolerance": 1e-10,
+      "fair_coupon_root_residual_tolerance": 1e-10,
+      "evidence_directory": "outputs/day5_direct_autocallable"
+    },
+    "day_6": {
+      "methods": [
+        "M0 direct fine-grid Monte Carlo",
+        "M1 direct fine-grid scrambled-Sobol RQMC",
+        "M2 Brownian-bridge-conditioned Monte Carlo",
+        "M3 Brownian-bridge-conditioned scrambled-Sobol RQMC"
+      ],
+      "day4_logistic_reused": false,
+      "trivariate_fallback": "fresh scrambled-Sobol nested conditional bridge bank with median of three exact-h anchored conditional ratios",
+      "m0_m3_price_tolerance_per_100": 1.25,
+      "paired_bernoulli_mean_difference_floor_tolerance": 0.35,
+      "nested_q3_rmse_tolerance": 0.03,
+      "nested_q3_max_abs_error_tolerance": 0.10,
+      "q3_projection_mean_tolerance": 0.005,
+      "q3_projection_p99_tolerance": 0.02,
+      "component_identity_tolerance": 1e-10,
+      "probability_mass_tolerance": 1e-10,
+      "fair_coupon_root_residual_tolerance": 1e-10,
+      "evidence_directory": "outputs/day6_three_asset_bb_conditioning"
+    },
+    "day_7": {
+      "full_product_methods": [
+        "M0 direct fine-grid Monte Carlo",
+        "M3 Brownian-bridge-conditioned scrambled-Sobol RQMC"
+      ],
+      "neighbourhoods": [
+        "near-KI",
+        "near-autocall"
+      ],
+      "spot_relative_bumps": [
+        0.001,
+        0.0025,
+        0.005,
+        0.01
+      ],
+      "volatility_absolute_bumps": [
+        0.0025,
+        0.005,
+        0.01
+      ],
+      "outer_paths_per_replication": 512,
+      "replications": 4,
+      "m0_steps_per_year": 252,
+      "m3_inner_paths": 128,
+      "m3_bridge_substeps": 12,
+      "delta_vega_shape_plateau_relative_tolerance": 0.2,
+      "gamma_shape_plateau_relative_tolerance": 0.5,
+      "ac_smooth_scope": "next-observation autocall principal redemption component only",
+      "ac_smooth_price_agreement_floor_tolerance_per_100": 0.35,
+      "rotation_orthogonality_tolerance": 1e-12,
+      "gamma_non_plateau_must_be_retained": true,
+      "evidence_directory": "outputs/day7_greeks_trigger_smoothing"
+    },
+    "day_8": {
+      "validation_config": "config/day8_gpu_validation.json",
+      "methods": [
+        "M0 direct Monte Carlo on CUDA",
+        "M1 direct scrambled-Sobol RQMC on CUDA",
+        "M2 hybrid Brownian-bridge-conditioned Monte Carlo",
+        "M3 hybrid Brownian-bridge-conditioned scrambled-Sobol RQMC"
+      ],
+      "precision": "float64",
+      "cpu_gpu_shared_input_required": true,
+      "speedup_reported_not_forced": true,
+      "evidence_directory": "outputs/day8_gpu_validation"
+    },
+    "day_9": {
+      "validation_config": "config/day9_main_experiments.json",
+      "methods": [
+        "M0 direct Monte Carlo",
+        "M1 direct scrambled-Sobol RQMC",
+        "M2 Brownian-bridge-conditioned Monte Carlo",
+        "M3 Brownian-bridge-conditioned scrambled-Sobol RQMC"
+      ],
+      "baseline_path_grid": [
+        1024,
+        4096,
+        16384,
+        65536
+      ],
+      "baseline_replications": 16,
+      "reference_paths": 262144,
+      "reference_replications": 24,
+      "efficiency_definition": "Glynn-Whitt variance-times-total-cost plus empirical convergence rate",
+      "trigger_smoothing_scope": "Wang-aligned next-observation autocall principal diagnostic only",
+      "evidence_directory": "outputs/day9_main_experiments"
+    }
+  }
+}

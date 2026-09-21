@@ -1,0 +1,2 @@
+comparison,paired_mean_difference,paired_difference_se,tolerance,pass
+AC-Smooth-RQMC minus AC-raw-RQMC,0.005583461840120041,0.03324320543575605,0.35,True

@@ -1,0 +1,18 @@
+field,value
+python_version,3.13.5
+numpy_version,2.2.2
+cupy_available,True
+cuda_device_count,1
+precision,float64
+cupy_version,14.1.1
+device_name,NVIDIA GeForce RTX 4060 Laptop GPU
+compute_capability,8.9
+device_memory_total_bytes,8585216000
+device_memory_free_bytes_at_probe,7443841024
+cuda_runtime_version,12090
+cuda_driver_version,12070
+compile_warmup_seconds,0.198649599973578
+warmup_checksum,5496.992145667737
+workbook_sha256,CD84790399F9CDA5C5B0ED3E95D973216314CA54DD4BDBA6D9D22C399DBD49E6
+workbook_as_of,2026-07-27
+validation_config,config\day8_gpu_validation.json

@@ -1,0 +1,10 @@
+criterion,observed,pass
+Frozen workbook and generic RC-L/RC-A parser,"hash_match=True; contracts=RC-L,RC-A",True
+RC-L Table 7 direct price within preset tolerance,max_abs_error=0.761446; tolerance=1.25,True
+RC-L Table 7 fair coupon within preset tolerance,max_abs_error=0.010419; tolerance=0.0200,True
+Lee Table 8 schedule variants within preset tolerance,max_abs_error=0.299435; tolerance=1.25,True
+Early-redemption mass plus maturity survival equals one,max_abs_error=0.000e+00,True
+Additive cash-flow components sum to total value,max_abs_error=1.421e-14,True
+Fair-coupon linear and bracketed roots have negligible residual,max_linear=0.000e+00; max_bracketed=3.881e-11,True
+Required RC-A sensitivities and C* uncertainty are saved,"dimensions=['KI barrier', 'autocall schedule', 'baseline', 'correlation', 'volatility']; baseline_R=4",True
+"RC-A claim is market-informed, not HSBC market price",stylised market-informed research contract; not HSBC 40447DKU1 and not an issuer or dealer market price,True

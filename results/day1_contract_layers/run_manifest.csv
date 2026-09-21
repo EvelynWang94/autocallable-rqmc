@@ -1,0 +1,2 @@
+run_date,gate_status,project_root,config,config_schema_version,workbook,workbook_sha256,deterministic_paths,component_identity_max_abs_error,known_coupon,recovered_coupon,python,platform,numpy,pandas
+2026-08-04T15:56:14.611159,PASS,<original-project-root>,config\core_project_config.json,2.0,Data\Bloomberg_Real_Autocallable_Market_Data_HSBC.xlsx,CD84790399F9CDA5C5B0ED3E95D973216314CA54DD4BDBA6D9D22C399DBD49E6,10,0.0,0.075,0.07500000000000002,3.13.5,Windows-11-10.0.26200-SP0,2.2.2,3.0.5

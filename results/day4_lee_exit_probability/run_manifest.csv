@@ -1,0 +1,2 @@
+run date,gate status,project root,source paper,source paper available,plan file,training seed,training candidate n,training steps,solver,regularisation,preprocessing,Bessel terms,Appendix target tolerance,target sampling RMSE,python,platform,numpy,pandas
+2026-07-31T17:42:31.262754,LIMITED / FAIL,<original-project-root>,<local-path>,True,<local-path>,20260731,100000,25,scipy.optimize.minimize L-BFGS-B,none,standardised endpoints,12,0.005,0.0025,3.13.5,Windows-11-10.0.26200-SP0,2.2.2,3.0.5

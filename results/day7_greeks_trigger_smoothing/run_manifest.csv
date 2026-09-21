@@ -1,0 +1,13 @@
+field,value
+status,PASS WITH DOCUMENTED GAMMA CAVEATS
+m0_paths,512
+m0_steps_per_year,252
+m3_paths,512
+m3_inner_paths,128
+m3_bridge_substeps,12
+replications,4
+spot_bumps,0.001;0.0025;0.005;0.01
+volatility_bumps,0.0025;0.005;0.01
+ac_smooth_scope,next-observation autocall principal redemption only
+ac_smooth_claim_boundary,discrete-trigger diagnostic; not Brownian bridge; not full-product replacement
+gamma_non_plateau_hidden,False

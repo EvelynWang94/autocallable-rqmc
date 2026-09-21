@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "autocallable-rqmc"
+version = "0.1.0"
+description = "Monte Carlo, randomized quasi-Monte Carlo and Brownian-bridge conditioning for three-asset autocallables"
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [{name = "Evelyn Wang"}]
+dependencies = [
+  "numpy>=1.26,<3",
+  "scipy>=1.11,<2",
+  "pandas>=2.1,<4",
+  "matplotlib>=3.8,<4",
+  "openpyxl>=3.1,<4",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8,<10"]
+notebooks = ["jupyterlab>=4,<5", "nbformat>=5.10,<6", "nbconvert>=7,<8", "ipykernel>=6,<8"]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+py-modules = ["autocallable_direct", "autocallable_bb", "autocallable_greeks", "autocallable_gpu", "day9_analysis", "day9_experiments"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

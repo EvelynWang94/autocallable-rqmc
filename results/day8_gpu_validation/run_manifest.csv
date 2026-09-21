@@ -1,0 +1,17 @@
+field,value
+status,PASS
+executed_at,2026-08-11T08:48:52.965441
+device,NVIDIA GeForce RTX 4060 Laptop GPU
+precision,float64
+direct_correctness_paths,2048
+direct_correctness_steps_per_year,252
+performance_steps_per_year,52
+performance_path_grid,512;2048;8192;32768;131072
+steady_state_break_even_n,8192
+maximum_steady_speedup,9.27558207018556
+maximum_tested_paths,131072
+maximum_gpu_memory_pool_bytes,371723776
+batched_greek_scenarios,13
+m2_m3_probability_boundary,"hybrid: endpoint GBM, marginal bridge probability and nested q3 counts on CUDA; exact non-integer Bessel h_ij and event loop on CPU"
+speedup_gate,"reported, not forced"
+literature_speedup_target,none

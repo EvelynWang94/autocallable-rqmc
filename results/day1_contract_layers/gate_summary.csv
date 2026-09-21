@@ -1,0 +1,8 @@
+criterion,observed,pass
+HSBC workbook hash and official references,hash_match=True; positive_refs=3/3,True
+"market_case, RC-L and RC-A are separate layers","HSBC-40447DKU1, RC-L, RC-A",True
+continuous KI and discrete autocall separated,"{""continuous_knock_in"": {""time_domain"": ""all times in each interval"", ""observation"": ""Brownian-bridge exit/non-exit probability"", ""separate_from"": ""discrete_autocall""}, ""discrete_autocall"": {""time_domain"": ""scheduled autocall dates only"", ""observation"": ""all underlying performances at or above trigger"", ""separate_from"": ""continuous_knock_in""}}",True
+8-12 deterministic cash-flow paths,10 paths; outcome_pass=10,True
+component values sum to total value,max_abs_error=0.000e+00,True
+fair coupon root recovers known solution,known=0.07500000; recovered=0.07500000; error=+2.776e-17,True
+valuation-scope exclusions recorded,issuer credit spread; issuer funding spread; secondary-market liquidity; dealer margin and hedging charge,True

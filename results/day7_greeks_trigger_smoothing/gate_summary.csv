@@ -1,0 +1,10 @@
+gate,metric,threshold,pass
+Day 7 unit tests,returncode=0,0,True
+required Delta/Vega/Gamma bump-grid coverage,rows=640; expected=640,exact coverage,True
+CRN / identical scramble within bumped repricing,max_unique_seed=1,1,True
+finite estimates and replication uncertainty,finite=True; replications=4,all finite; R>=4,True
+near-KI and near-autocall separated,"near-KI,near-autocall",both present,True
+active/worst asset and parallel Gamma retained,active_gamma_rows=64; gamma_plateau_rate=0.125,full rows retained; no plateau may be hidden,True
+bridge-bank seed sensitivity quantified,rows=18; variants=3,Delta/Gamma; >=3 variants,True
+AC-Smooth price agreement,paired_diff=0.005583,"max(0.35, 3 paired SE)",True
+AC-Smooth rotation and variance diagnostic,price_SD_ratio_raw/smooth=97.022,rotation valid; clipping<=1%; ratio>1,True

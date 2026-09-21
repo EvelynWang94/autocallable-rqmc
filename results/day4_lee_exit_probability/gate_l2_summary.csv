@@ -1,0 +1,9 @@
+criterion,observed,pass
+Appendix C target within preset tolerance,"q3=0.165739, error=+0.002639, tol=0.0050",True
+Bessel series stable at frozen truncation,12 vs 40 max change=0.000e+00,True
+g_i and h_ij agree with paper and independent reference,paper-h pass=True; independent-reference pass=True,True
+Table 1 direction and magnitude reproduced,"RMS rel error BB=0.0071, direct=0.0552",True
+Training uncertainty quantified,seed SD=0.001667,True
+Approximation bias below target sampling RMSE,"OOS RMSE=0.003706, target=0.002500",False
+Probability bounds hold,"q violations=0, p violations=0",True
+Interval effective-barrier strategy implemented,exact signature + feature-domain guard + nested fallback,True

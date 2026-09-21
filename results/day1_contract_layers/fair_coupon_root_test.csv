@@ -1,0 +1,2 @@
+known_coupon,target_value,recovered_coupon,root_error,absolute_residual,solver,bracket,pass
+0.075,104.76518399297873,0.07500000000000002,2.7755575615628914e-17,0.0,scipy.optimize.brentq,"[0.00, 0.30]",True

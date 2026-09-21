@@ -1,0 +1,7 @@
+input,value,source
+underlying,SPX Index,Underlying_Snapshot!B6
+normalised spot / strike / barrier,100.0 / 100.0 / 95.0,frozen experiment
+risk-free rate,0.041397500000000004,"latest positive 3Y SOFR proxy, 2026-07-27"
+dividend yield,0.010964293554919678,Underlying_Snapshot!E6
+12M ATM volatility,0.183212,Underlying_Snapshot!H6
+continuous analytic price,4.916409594732119,closed form

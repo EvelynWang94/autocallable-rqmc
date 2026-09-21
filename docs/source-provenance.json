@@ -1,0 +1,1020 @@
+{
+  "description": "Original-file hashes before notebook output stripping, portable path edits and local-path removal. Original result audit hashes refer to the research workspace, not this distribution.",
+  "files": [
+    {
+      "source": "src/autocallable_bb.py",
+      "destination": "src/autocallable_bb.py",
+      "original_sha256": "db29b03c6501694b35930372cff3e9035fd833935320e266d6f9015a5aacc42f"
+    },
+    {
+      "source": "src/autocallable_direct.py",
+      "destination": "src/autocallable_direct.py",
+      "original_sha256": "64df93f8207adadedcb450a7c0896911453a2d42149ef4174002d97ee00c12aa"
+    },
+    {
+      "source": "src/autocallable_gpu.py",
+      "destination": "src/autocallable_gpu.py",
+      "original_sha256": "54cf44e172fa218fc38938c8f4dad98bdcc19982f7911ef08125f0b1649056cb"
+    },
+    {
+      "source": "src/autocallable_greeks.py",
+      "destination": "src/autocallable_greeks.py",
+      "original_sha256": "a6c72cd373e94124053fba160aa28fa7c72f873afd569f5c9b47f1bdd45f92b9"
+    },
+    {
+      "source": "src/day9_analysis.py",
+      "destination": "src/day9_analysis.py",
+      "original_sha256": "6933af95d2e9efb141e43def7bbe98219983890bf0edfeca087ee85421201663"
+    },
+    {
+      "source": "src/day9_experiments.py",
+      "destination": "src/day9_experiments.py",
+      "original_sha256": "ddd072d6b2a03e1af5832da13a4cf242c9ed7b8f2c90c83f635d7436b9e610ee"
+    },
+    {
+      "source": "tests/test_autocallable_bb.py",
+      "destination": "tests/test_autocallable_bb.py",
+      "original_sha256": "d0c3cd44db33369a4d200b6bddef17f64b11bedb93658b63644c168649162234"
+    },
+    {
+      "source": "tests/test_autocallable_direct.py",
+      "destination": "tests/test_autocallable_direct.py",
+      "original_sha256": "e7281a56df6b36ef404a7611cb12724d9950ec075b4dadeb6a87baeecded8323"
+    },
+    {
+      "source": "tests/test_autocallable_gpu.py",
+      "destination": "tests/test_autocallable_gpu.py",
+      "original_sha256": "20c085967cd83f56d9117b3c54335d41d84c0e920a92a78ca09f3682830361d5"
+    },
+    {
+      "source": "tests/test_autocallable_greeks.py",
+      "destination": "tests/test_autocallable_greeks.py",
+      "original_sha256": "b3b415da4998a09162636d3cdeeb037c7ca1439233dbae453e286a2d8f7ef56b"
+    },
+    {
+      "source": "tests/test_day9_analysis.py",
+      "destination": "tests/test_day9_analysis.py",
+      "original_sha256": "21700e3d1793235c9c01efe3d11484e0d44adb83134c32ae7ff5a7e8632bcf67"
+    },
+    {
+      "source": "config/core_project_config.json",
+      "destination": "config/core_project_config.json",
+      "original_sha256": "f479231d1ff94957cd6fb49360fd818a3a773902c160feb640a1bbdfcff3eab3"
+    },
+    {
+      "source": "config/day8_gpu_validation.json",
+      "destination": "config/day8_gpu_validation.json",
+      "original_sha256": "bdc76c1fb132b8a3d85b2ad76f6942a4f3596fe9ddb0b54b7fa7d3a683781733"
+    },
+    {
+      "source": "config/day9_main_experiments.json",
+      "destination": "config/day9_main_experiments.json",
+      "original_sha256": "b8c9c7312c46c32eef66065686a8bdbea6b36bcf00829d29c8548b429f4181e7"
+    },
+    {
+      "source": "Day1_Contract_Layers_Component_Schema.ipynb",
+      "destination": "notebooks/Day1_Contract_Layers_Component_Schema.ipynb",
+      "original_sha256": "77a5447b1c5de22e208a30a0764b485a555a2ba843671ba1f30a57133c74c525"
+    },
+    {
+      "source": "Day2_HSBC_M1_RQMC_European_Validation.ipynb",
+      "destination": "notebooks/Day2_HSBC_M1_RQMC_European_Validation.ipynb",
+      "original_sha256": "d2492cfd2c5accbee9a4e9f398d00e305dcaa9c0f3c1b0ca9a9f91614d9877b3"
+    },
+    {
+      "source": "Day3_Barrier_Conditioning_MC_RQMC_Greeks.ipynb",
+      "destination": "notebooks/Day3_Barrier_Conditioning_MC_RQMC_Greeks.ipynb",
+      "original_sha256": "baf96b29f02d249992368dc3504de7ffcc480bd1153f881eec68d0ec5b0c32bb"
+    },
+    {
+      "source": "Day3B_Single_Asset_Exact_Brownian_Bridge_Validation.ipynb",
+      "destination": "notebooks/Day3B_Single_Asset_Exact_Brownian_Bridge_Validation.ipynb",
+      "original_sha256": "9a37bc15f71c2c4e1ebe19b9e575bbf93fa84fba68c1465f06b302f6e6796a0b"
+    },
+    {
+      "source": "Day4_Lee_Exit_Probability_Reproduction.ipynb",
+      "destination": "notebooks/Day4_Lee_Exit_Probability_Reproduction.ipynb",
+      "original_sha256": "a90b32ad7215a565982bc2c96949f31653bec77dad6466d42f6b8e0dd02d82e9"
+    },
+    {
+      "source": "Day5_Three_Asset_Direct_Autocallable_Fair_Coupon.ipynb",
+      "destination": "notebooks/Day5_Three_Asset_Direct_Autocallable_Fair_Coupon.ipynb",
+      "original_sha256": "bca6c202a91a79a94b0b989f48098c2b4143c767719c74b561c4fe4ca1af3cd0"
+    },
+    {
+      "source": "Day6_Three_Asset_BB_Conditioning_M2_M3.ipynb",
+      "destination": "notebooks/Day6_Three_Asset_BB_Conditioning_M2_M3.ipynb",
+      "original_sha256": "2828e3602219900f152fbc30b42cf460346863fb63f0d0536e66037c0d4daed6"
+    },
+    {
+      "source": "Day7_Greeks_and_Discrete_Trigger_Smoothing.ipynb",
+      "destination": "notebooks/Day7_Greeks_and_Discrete_Trigger_Smoothing.ipynb",
+      "original_sha256": "278f85163e729fbcdf83c758ceb0a83511b1fd8fb5df10e34b9eace26d321fb2"
+    },
+    {
+      "source": "Day8_GPU_Implementation_and_Validation.ipynb",
+      "destination": "notebooks/Day8_GPU_Implementation_and_Validation.ipynb",
+      "original_sha256": "3d6af2ea5f49084f90bf68b536caa40cd81ae45acaff2a5d38eeff6045bde64b"
+    },
+    {
+      "source": "Day9_Main_Experiments_and_Pareto_Frontier.ipynb",
+      "destination": "notebooks/Day9_Main_Experiments_and_Pareto_Frontier.ipynb",
+      "original_sha256": "37c19170e3c3f85de772aa3c80ab44a8f285d384f14021f47f1c977a166e3e24"
+    },
+    {
+      "source": "outputs/day1_contract_layers/component_identity_checks.csv",
+      "destination": "results/day1_contract_layers/component_identity_checks.csv",
+      "original_sha256": "bc292702e0e6d5cac7f85220011425f923ee3ce8527c97eed41ec6c2331ec1f2"
+    },
+    {
+      "source": "outputs/day1_contract_layers/contract_layer_summary.csv",
+      "destination": "results/day1_contract_layers/contract_layer_summary.csv",
+      "original_sha256": "0f3f99309d583e43a9bb5e119b0e949f62e63e6cdb1c3613a1e5fcf4e73e0689"
+    },
+    {
+      "source": "outputs/day1_contract_layers/deterministic_path_results.csv",
+      "destination": "results/day1_contract_layers/deterministic_path_results.csv",
+      "original_sha256": "4543030538746c666adff9496a43097b25d78cd4823fdb0cb8487a327b846966"
+    },
+    {
+      "source": "outputs/day1_contract_layers/fair_coupon_root_test.csv",
+      "destination": "results/day1_contract_layers/fair_coupon_root_test.csv",
+      "original_sha256": "e55c70a9bda090b5ff1137e31daf8d914ddf6699f5facc1382c533dfe4f7a226"
+    },
+    {
+      "source": "outputs/day1_contract_layers/gate_summary.csv",
+      "destination": "results/day1_contract_layers/gate_summary.csv",
+      "original_sha256": "64e5f48ab503b675e790a97fb28c888ca5c1121579177feb8489efea8874fec5"
+    },
+    {
+      "source": "outputs/day1_contract_layers/run_manifest.csv",
+      "destination": "results/day1_contract_layers/run_manifest.csv",
+      "original_sha256": "d29a28964cade35b9d78a13166ff736c20a6c5ec88e10a49a5e8bd5b8ffb271e"
+    },
+    {
+      "source": "outputs/day2_hsbc_m1_rqmc/convergence_summary.csv",
+      "destination": "results/day2_hsbc_m1_rqmc/convergence_summary.csv",
+      "original_sha256": "c2fefca84372e1f63676d16f1a9c522823478c29e59496fbdc04604bf511b726"
+    },
+    {
+      "source": "outputs/day2_hsbc_m1_rqmc/data_quality_summary.csv",
+      "destination": "results/day2_hsbc_m1_rqmc/data_quality_summary.csv",
+      "original_sha256": "b6f1b7471cc8e9633253dcc7c643947718a7ac9e29b2e6e9f71b613dd2733c4f"
+    },
+    {
+      "source": "outputs/day2_hsbc_m1_rqmc/gamma_bump_summary.csv",
+      "destination": "results/day2_hsbc_m1_rqmc/gamma_bump_summary.csv",
+      "original_sha256": "f4fe6026dbf1013e8c0772a5781ed9af6d829b955449a364b8c738a6205c6fe1"
+    },
+    {
+      "source": "outputs/day2_hsbc_m1_rqmc/replication_results.csv",
+      "destination": "results/day2_hsbc_m1_rqmc/replication_results.csv",
+      "original_sha256": "d33acf422ffd039adbb37d791c182e4b7dabe130d4f6d9603cf15b674064e71d"
+    },
+    {
+      "source": "outputs/day2_hsbc_m1_rqmc/run_manifest.csv",
+      "destination": "results/day2_hsbc_m1_rqmc/run_manifest.csv",
+      "original_sha256": "e1f0dbd56ef8b649f75af38f722693c33aa6fbb2c3204ca6d8d253575cc1d7e6"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/bridge_method_agreement.csv",
+      "destination": "results/day3b_exact_brownian_bridge/bridge_method_agreement.csv",
+      "original_sha256": "10f75225e9c70ef835127ed38cc92df4f04bbc5a6cf624c941eee6c59dc147d7"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/conditioning_rqmc_gain.csv",
+      "destination": "results/day3b_exact_brownian_bridge/conditioning_rqmc_gain.csv",
+      "original_sha256": "943b1451d14d210516e792b317f6708f687f5f1d0653d5ddf79c83a7a9050b51"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/day3b_diagnostics.png",
+      "destination": "results/day3b_exact_brownian_bridge/day3b_diagnostics.png",
+      "original_sha256": "ce313f1b3dd43e7cce9eb1f651feafa469d87df7991045c991eb84b5e786bf16"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/fine_grid_nested_mc.csv",
+      "destination": "results/day3b_exact_brownian_bridge/fine_grid_nested_mc.csv",
+      "original_sha256": "fb275578701dcdac3f9fcf600afc7b21065ef86b06be8baf0361fc788bb59e49"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/gate_summary.csv",
+      "destination": "results/day3b_exact_brownian_bridge/gate_summary.csv",
+      "original_sha256": "c1e4faa2c997c843fc1359e428c48472e7b8c538525f7aafcfdfd1e5378f28fd"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/greek_replications.csv",
+      "destination": "results/day3b_exact_brownian_bridge/greek_replications.csv",
+      "original_sha256": "4c270e28f3100ff137a8087c5118a14d58f6aaa72e053eae7a52199bfd47224a"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/greek_stability.csv",
+      "destination": "results/day3b_exact_brownian_bridge/greek_stability.csv",
+      "original_sha256": "b5d8dd95b49253790cdd1d5739d1a7976a1d244ae9f56ad43c65219a16d08216"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/greek_summary.csv",
+      "destination": "results/day3b_exact_brownian_bridge/greek_summary.csv",
+      "original_sha256": "c1b19ee867c2cba275a90fffcf2bf106fbe65faa946c135564a7e44a2e1e0658"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/market_inputs.csv",
+      "destination": "results/day3b_exact_brownian_bridge/market_inputs.csv",
+      "original_sha256": "a60476937243154d6fe06a50ead1de2c248c21be8c9d707916619b95d8c3fb2b"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/monitoring_bias_summary.csv",
+      "destination": "results/day3b_exact_brownian_bridge/monitoring_bias_summary.csv",
+      "original_sha256": "046956aa5c433a6aa3b66ac91bf071f7758a21c57cda1b7a055785b5ad9f351d"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/price_replications.csv",
+      "destination": "results/day3b_exact_brownian_bridge/price_replications.csv",
+      "original_sha256": "495b3567ab2f2624fb40013cb24a8292b0613355bb3d8c9ea5dd7611ea7d11e6"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/price_summary.csv",
+      "destination": "results/day3b_exact_brownian_bridge/price_summary.csv",
+      "original_sha256": "63574a06dca13b9a91452a52b521a144affc58c7863bca51148fb47968cb04f1"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/run_manifest.csv",
+      "destination": "results/day3b_exact_brownian_bridge/run_manifest.csv",
+      "original_sha256": "2a2888eb27226bee1c753e6175f2291f184e54ec57fc6a52cac1194221a11abc"
+    },
+    {
+      "source": "outputs/day3b_exact_brownian_bridge/sampling_convergence.csv",
+      "destination": "results/day3b_exact_brownian_bridge/sampling_convergence.csv",
+      "original_sha256": "2d3f2016c41e2c0da278c89b7bff72dd59348017aae8a94423d34169fdfad28e"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/delta_dispersion.png",
+      "destination": "results/day3_barrier_conditioning/delta_dispersion.png",
+      "original_sha256": "cd8c9378ac42f9692115a8fc6bc96088f2f43f0d78f8a3a5fef41b68c97fe293"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/delta_replications.csv",
+      "destination": "results/day3_barrier_conditioning/delta_replications.csv",
+      "original_sha256": "a1a1413175abf4dda8f85803d09c9f240e62ab44c7ca20de55ecfe1986677f9c"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/delta_summary.csv",
+      "destination": "results/day3_barrier_conditioning/delta_summary.csv",
+      "original_sha256": "9d39003fc009105af441827ee3a9dc13f7bf076ad99be4a942dbee68420084b1"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/gamma_replications.csv",
+      "destination": "results/day3_barrier_conditioning/gamma_replications.csv",
+      "original_sha256": "c666e1c638f558007e4ac896d5238be2239ab141351fb3ffe734e1cc1581cd72"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/gamma_stability_95pct.csv",
+      "destination": "results/day3_barrier_conditioning/gamma_stability_95pct.csv",
+      "original_sha256": "380f08b3f0ca873f7a8404ae6270d45e10550265a45338b78423b2b14407d340"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/gamma_summary.csv",
+      "destination": "results/day3_barrier_conditioning/gamma_summary.csv",
+      "original_sha256": "5c09f6b70dc4d5aaac7d8d1bc21d727e0d70a8a964937b29283edff0e58b89f9"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/gamma_vs_spot_bump_95pct.png",
+      "destination": "results/day3_barrier_conditioning/gamma_vs_spot_bump_95pct.png",
+      "original_sha256": "6c9db1916a61bd4bef8ff42cafa31bbd888ece102b557eb8da8cae369cd3d164"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/monitoring_sample_grid.csv",
+      "destination": "results/day3_barrier_conditioning/monitoring_sample_grid.csv",
+      "original_sha256": "a21e1f7a7612f869d504127e353996f738baff39db268d78570a4a73d5f2b2df"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/monitoring_sample_replications.csv",
+      "destination": "results/day3_barrier_conditioning/monitoring_sample_replications.csv",
+      "original_sha256": "b36f912fc8748820f44d418b6f143262bf9b9870d46ed1c1d79d935c6ca416f9"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/price_method_agreement.csv",
+      "destination": "results/day3_barrier_conditioning/price_method_agreement.csv",
+      "original_sha256": "6b0198a47c4a146973bad7a8bfd4724adc1004cbb2fc96545ec73d2a7f7980d1"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/price_replications.csv",
+      "destination": "results/day3_barrier_conditioning/price_replications.csv",
+      "original_sha256": "a2ab8cab545418439ebb6d1bc65b021e3a27c7ddfdb8339078b1747b4d55eee4"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/price_summary.csv",
+      "destination": "results/day3_barrier_conditioning/price_summary.csv",
+      "original_sha256": "64630af61170fd932e1d17f922273de4023519bb75aa3b3ee199c34affe19051"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/price_variance_reduction.csv",
+      "destination": "results/day3_barrier_conditioning/price_variance_reduction.csv",
+      "original_sha256": "964229ac762cec523ecb86ef2d6e1dcf64d3992ff975d4e7ad8b325a8236fba6"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/price_variance_reduction.png",
+      "destination": "results/day3_barrier_conditioning/price_variance_reduction.png",
+      "original_sha256": "009baa8cf1bc2f7f960c40fa1911284d27acebfb06ed8dda0e2a65938b06ea12"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/reference_replications.csv",
+      "destination": "results/day3_barrier_conditioning/reference_replications.csv",
+      "original_sha256": "7da674ea1d2cb57ba7a5ab7836319135ac41abcd62b1a3149a48a9c3e3172f03"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/reference_summary.csv",
+      "destination": "results/day3_barrier_conditioning/reference_summary.csv",
+      "original_sha256": "4284b80f4b0ce2fbe825859d9505ee071f592734e1c60160192a00d1a51d3cf2"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/rqmc_conditioning_interaction.png",
+      "destination": "results/day3_barrier_conditioning/rqmc_conditioning_interaction.png",
+      "original_sha256": "7678666c9f00e1f555ffbce6c3a2beba46ef2a57ad491d26d3675a4e3a3b6dd6"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/rqmc_interaction.csv",
+      "destination": "results/day3_barrier_conditioning/rqmc_interaction.csv",
+      "original_sha256": "dab024153b2db5a3fc4a493e678c3f08ebe77585f6c905e557e9ab355950b739"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/run_manifest.csv",
+      "destination": "results/day3_barrier_conditioning/run_manifest.csv",
+      "original_sha256": "52fcb3c123429f9970ae823d6fbb0942fd1d8c47c11d3a5571a07fa38f9fd14d"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/vega_dispersion.png",
+      "destination": "results/day3_barrier_conditioning/vega_dispersion.png",
+      "original_sha256": "0d1bb592c636df6827c9773551acdb80859e4369b67873d280805daf3cb0da28"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/vega_replications.csv",
+      "destination": "results/day3_barrier_conditioning/vega_replications.csv",
+      "original_sha256": "403105259012f8cab7ebff62def922b12d2d3864f4eaacea058c0777fb0c3443"
+    },
+    {
+      "source": "outputs/day3_barrier_conditioning/vega_summary.csv",
+      "destination": "results/day3_barrier_conditioning/vega_summary.csv",
+      "original_sha256": "d85e7bfcad177891faa71b6c3193e258b1be792511500dcbbb4c22e5adc2de4b"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/appendix_c_reproduction.csv",
+      "destination": "results/day4_lee_exit_probability/appendix_c_reproduction.csv",
+      "original_sha256": "20b6d4d875d5fe89083f45ad0dc2a24b09bdbcc1a8fde76fff353a2fcddf17a3"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/bessel_truncation.csv",
+      "destination": "results/day4_lee_exit_probability/bessel_truncation.csv",
+      "original_sha256": "28bb3f745bdf32501fcafa3f556e8c38e68cbe6ebabee2dc24bb9a8f5a9bb942"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/day4_gate_l2_diagnostics.png",
+      "destination": "results/day4_lee_exit_probability/day4_gate_l2_diagnostics.png",
+      "original_sha256": "a7e3b7a62497388c4760a13f234ed2736309c10cce0196b45c7e33e9ca0a9ef1"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/gate_l2_summary.csv",
+      "destination": "results/day4_lee_exit_probability/gate_l2_summary.csv",
+      "original_sha256": "dcfe10149cd026709bc4685fc8573becd45efedf9b4a7e289d91d0befb78c200"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/independent_reference.csv",
+      "destination": "results/day4_lee_exit_probability/independent_reference.csv",
+      "original_sha256": "894fe998355482c6844af963bfcc02d2a723624e0e0cabf3ffaddb25be1713dd"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/logistic_model_coefficients.csv",
+      "destination": "results/day4_lee_exit_probability/logistic_model_coefficients.csv",
+      "original_sha256": "9831a83794603dd5bfae191c7027e6b0b3ff96b91eda17596b2d51a948173beb"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/model_registry.csv",
+      "destination": "results/day4_lee_exit_probability/model_registry.csv",
+      "original_sha256": "44a0a352840403f09a91f2c10c8ca96e3af5c451ebfabe0c130d0e5fb78acba2"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/out_of_sample_validation.csv",
+      "destination": "results/day4_lee_exit_probability/out_of_sample_validation.csv",
+      "original_sha256": "46d26a324a0855bb3ea48de295c56527b8810ce8fdc2d5c946bde04674833197"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/preprocessing_robustness.csv",
+      "destination": "results/day4_lee_exit_probability/preprocessing_robustness.csv",
+      "original_sha256": "eeb42c448ce37ad1b4c29db93f2078deb26d4bebbbb799c067eaa3946c8ffacb"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/probability_bounds.csv",
+      "destination": "results/day4_lee_exit_probability/probability_bounds.csv",
+      "original_sha256": "8d5abca23c4124fec3058a504fcd34d8c2863e14689275036e042195a5ca3949"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/q3_nested_lookup.csv",
+      "destination": "results/day4_lee_exit_probability/q3_nested_lookup.csv",
+      "original_sha256": "3929e5b0a8852a630a5c5fc483e48002b33f0a1f1d5fb954ca72f6cc03bca7de"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/run_manifest.csv",
+      "destination": "results/day4_lee_exit_probability/run_manifest.csv",
+      "original_sha256": "76cca0a10140c88376bb2f159ad263727b3cb687eda0863727b4fa7030365835"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/scenario_robustness.csv",
+      "destination": "results/day4_lee_exit_probability/scenario_robustness.csv",
+      "original_sha256": "04c1a3904b3149fb388ab26756c78d1632f1b88a12872b14a01e7f6b57a7a09b"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/table1_reproduction.csv",
+      "destination": "results/day4_lee_exit_probability/table1_reproduction.csv",
+      "original_sha256": "85748ff0b9a09a4c007b1dc56f2636e954da303f71a31265adc62efe070c7c0c"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/training_grid_robustness.csv",
+      "destination": "results/day4_lee_exit_probability/training_grid_robustness.csv",
+      "original_sha256": "2f602630db6d1e0ca0c1a966c9df3b1af9aeafe9c8ebf119981ab08c3078ce90"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/training_seed_robustness.csv",
+      "destination": "results/day4_lee_exit_probability/training_seed_robustness.csv",
+      "original_sha256": "09d29e5e8e2634136a05fbac0c50244c9ca6e63b3bb0b2b409efd175b4a3c7b5"
+    },
+    {
+      "source": "outputs/day4_lee_exit_probability/training_size_robustness.csv",
+      "destination": "results/day4_lee_exit_probability/training_size_robustness.csv",
+      "original_sha256": "22463107db9cc9f44e03c92008096d6772d65f3a38c6302f8704107ff0d5105c"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/baseline_component_summary.csv",
+      "destination": "results/day5_direct_autocallable/baseline_component_summary.csv",
+      "original_sha256": "c9cd5bb8449b4b5b9e3a2c7d5d5fa9198348323410f7d0fe11d4a3ae73ace5c4"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/component_identity_checks.csv",
+      "destination": "results/day5_direct_autocallable/component_identity_checks.csv",
+      "original_sha256": "1875942f9e795f6762768bbd29a6a2c98dcea113f2f0b668398ea9b045fc4316"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/contract_parser_summary.csv",
+      "destination": "results/day5_direct_autocallable/contract_parser_summary.csv",
+      "original_sha256": "4ff5d0e10d949ec1db719fa2d0c0fd3a428b805c8698b383538965d75bb38a8e"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/day5_rca_value_waterfall.png",
+      "destination": "results/day5_direct_autocallable/day5_rca_value_waterfall.png",
+      "original_sha256": "51029e2a763a6355b97b39dcff885a47a408e9bc4685925c110a33633e9c687c"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/day5_validation_and_fair_coupon.png",
+      "destination": "results/day5_direct_autocallable/day5_validation_and_fair_coupon.png",
+      "original_sha256": "9fc17df1be16d6640cd15e0138a1b4838a6914ee1b8042b7114b2b565c34f0c1"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/fair_coupon_replications.csv",
+      "destination": "results/day5_direct_autocallable/fair_coupon_replications.csv",
+      "original_sha256": "935d72496cc134b9f6f3b6296c8be53d6a50ba8e3fd43642009dcd9f811fa4db"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/fair_coupon_root_checks.csv",
+      "destination": "results/day5_direct_autocallable/fair_coupon_root_checks.csv",
+      "original_sha256": "617aabcc216e22d0bcb738a408ffbea8cccf061d542b45001d22b0c025f445c9"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/fair_coupon_summary.csv",
+      "destination": "results/day5_direct_autocallable/fair_coupon_summary.csv",
+      "original_sha256": "ff975716a57d930293761b7ba258144c5b8352fb29e1eaa89423db3449e8c30f"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/gate_summary.csv",
+      "destination": "results/day5_direct_autocallable/gate_summary.csv",
+      "original_sha256": "1b4548c76f39c18b184760b89790b8b1d04887d1a9f7b86c16216709338a0636"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/lee_table7_benchmark.csv",
+      "destination": "results/day5_direct_autocallable/lee_table7_benchmark.csv",
+      "original_sha256": "e918822654e505d6f4ae47be3d68e0164246f07b1eeb5a9c12392f3ab73a5f57"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/lee_table7_comparison.csv",
+      "destination": "results/day5_direct_autocallable/lee_table7_comparison.csv",
+      "original_sha256": "efa738921c5eb52ae09c5db6b2195c6225db96a0fd2979a3e421f6187530ab62"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/lee_table7_replications.csv",
+      "destination": "results/day5_direct_autocallable/lee_table7_replications.csv",
+      "original_sha256": "fd05371d0af245d4c2ad10f3cc42fcecd6f7b4c50ee1de960b4a7035d1e96765"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/lee_table8_benchmark.csv",
+      "destination": "results/day5_direct_autocallable/lee_table8_benchmark.csv",
+      "original_sha256": "f78741c1d02e7cc92d9fed9d435704a05590d3c2523babde1857b27267fb5571"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/lee_table8_comparison.csv",
+      "destination": "results/day5_direct_autocallable/lee_table8_comparison.csv",
+      "original_sha256": "2df7dbaece48d6421883fafa7b82bc79b82636e50089c41a34988dd2f9878f5a"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/lee_table8_replications.csv",
+      "destination": "results/day5_direct_autocallable/lee_table8_replications.csv",
+      "original_sha256": "1bc7f3c9c737c4046760f944f44875ccca8882c244727b619762ed70cdee0e41"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/market_inputs.csv",
+      "destination": "results/day5_direct_autocallable/market_inputs.csv",
+      "original_sha256": "fb6f6ff2599fc686b86a32b4bfd17d92b79682481637940a000c76c73460e3bc"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/monitoring_convergence_replications.csv",
+      "destination": "results/day5_direct_autocallable/monitoring_convergence_replications.csv",
+      "original_sha256": "d5d658bf4a5570edd2784884b1aa43bcc2543de8042a658bbaee085bb61b7558"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/monitoring_convergence_summary.csv",
+      "destination": "results/day5_direct_autocallable/monitoring_convergence_summary.csv",
+      "original_sha256": "509b8a7fc80e97ea9698b737fb28bbd49251bb7c98cecf1c33fa9e51d7fe10d0"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/rc_a_sensitivity_replications.csv",
+      "destination": "results/day5_direct_autocallable/rc_a_sensitivity_replications.csv",
+      "original_sha256": "f0ff546da10e8f16c5067e5eef236b15bdd711b823d44eb23093d2fefcf4999b"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/rc_a_sensitivity_summary.csv",
+      "destination": "results/day5_direct_autocallable/rc_a_sensitivity_summary.csv",
+      "original_sha256": "562c5322912d4eca02cbb6b3fd186832276ea6feee610992df0432e9a1fa2377"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/redemption_probabilities.csv",
+      "destination": "results/day5_direct_autocallable/redemption_probabilities.csv",
+      "original_sha256": "7923eb35b09529dbf8d9232e6c63ad7007e26e68f9e25fb492c1bfaaad18b7c8"
+    },
+    {
+      "source": "outputs/day5_direct_autocallable/run_manifest.csv",
+      "destination": "results/day5_direct_autocallable/run_manifest.csv",
+      "original_sha256": "dd9477eda2cb68b68fb911d08ff0071e209a87590e3120337211b898882087b6"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/appendix_probability_check.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/appendix_probability_check.csv",
+      "original_sha256": "1817c65ebf9ff05a0f109d1199ac126a6aad8c827d965260665f26b9d62e33d2"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/approximation_bias_detail.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/approximation_bias_detail.csv",
+      "original_sha256": "f33e0da76f04aba154462ea7add37516aaea5e9043632e3ffcfcfab39634c000"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/approximation_bias_summary.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/approximation_bias_summary.csv",
+      "original_sha256": "090d8f75377c42e746673c7cd135b2dc74c371b96ff5d1e73046051321dae0cf"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/component_comparison.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/component_comparison.csv",
+      "original_sha256": "f2ab01a5746f4b5bfece26198b956a61319a726b21cbad195c1317684b76cb4a"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/gate_summary.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/gate_summary.csv",
+      "original_sha256": "a823ed5c992fc5dfe06dfc8e3dc70f1956bfa731694dc0c31bdef8285ed019b9"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/invariance_checks.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/invariance_checks.csv",
+      "original_sha256": "373eb127a743d5e1908f7bf49341d246a79cbc7fb8ca8f3b08b42b974fe88bd0"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/m0_m3_price_agreement.png",
+      "destination": "results/day6_three_asset_bb_conditioning/m0_m3_price_agreement.png",
+      "original_sha256": "5398a39e38470b61acdff8448ead3e56ded180318dc748c5ae2423f17d3d26b9"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/m0_m3_replications.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/m0_m3_replications.csv",
+      "original_sha256": "e8021fec3cd02857637bcdedde99675b454e77bb74e8183f34196448d79d81e1"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/m0_m3_summary.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/m0_m3_summary.csv",
+      "original_sha256": "4802b71fa08637c9dced393d6ce53681543e4bf1b06cce03d1b98a2e920492bd"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/m3_segment_survival_weights.png",
+      "destination": "results/day6_three_asset_bb_conditioning/m3_segment_survival_weights.png",
+      "original_sha256": "35c08a4b1f73af5058565951c3bef2bad09a9e7b8de2f49cb4a66c7cfe132512"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/paired_bernoulli_comparison.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/paired_bernoulli_comparison.csv",
+      "original_sha256": "a0f97bcd5e9323fa8b26cda23c4bb8c87c0aa3c50027ae9dfabbeaf27980e7ac"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/price_agreement.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/price_agreement.csv",
+      "original_sha256": "c0c07d9266cab174bc6a28c492d0576660ea800a58f4cb9a3a1c71ece282b2fe"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/probability_bounds_summary.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/probability_bounds_summary.csv",
+      "original_sha256": "c004ccc8655168b049104e3bc6ccde852489f9ba0e9032e5ce46ccb8de5afdeb"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/runtime_by_probability_component.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/runtime_by_probability_component.csv",
+      "original_sha256": "4601409162e51b01470271200630878d789eb199eca208236f60d82e8d483819"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/run_manifest.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/run_manifest.csv",
+      "original_sha256": "245cfa280554c9c954d843f8f7c688fa0b0a471d9cf04aecc2334ae988a03b47"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/segment_probability_diagnostics.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/segment_probability_diagnostics.csv",
+      "original_sha256": "0d6209fca22788ecb79d4ea6be3b5e6c1cca3641143f2db9b67f6543ed10cf80"
+    },
+    {
+      "source": "outputs/day6_three_asset_bb_conditioning/weight_distribution.csv",
+      "destination": "results/day6_three_asset_bb_conditioning/weight_distribution.csv",
+      "original_sha256": "10d3d71ba7b3e5e1988a9b3992a5d8177f5a50ec30f1240e2a3766cdb0f4f79d"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/active_asset_greeks.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/active_asset_greeks.csv",
+      "original_sha256": "1d2ef2c0a8ae5c99aa0394e7d71fc340e277c64348f94397dcf4c40470729462"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/active_delta_bump_stability.png",
+      "destination": "results/day7_greeks_trigger_smoothing/active_delta_bump_stability.png",
+      "original_sha256": "cc0f007901d55ae451d42798b55f6f09e0096c9394e0c97e4354d13d2cb54ab4"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/active_gamma_bump_stability.png",
+      "destination": "results/day7_greeks_trigger_smoothing/active_gamma_bump_stability.png",
+      "original_sha256": "873e7b18c5dacf1a1e0501284fff4fa4857e8ff1c043a5e9243117dff3071247"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/active_sd_ratio_summary.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/active_sd_ratio_summary.csv",
+      "original_sha256": "9eb776ec066e250f7cfc19f275710464145fcba376f6be417b0b82374eb59086"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/active_vega_bump_stability.png",
+      "destination": "results/day7_greeks_trigger_smoothing/active_vega_bump_stability.png",
+      "original_sha256": "3e892b01540183cac58ef6cd03477332ca05b290762f97203533674ea85456e7"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/ac_greek_summary.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/ac_greek_summary.csv",
+      "original_sha256": "b9ebc914ee2a8a9d5acd98b493472f0ebd65d867a8db02565c06f9ab9f214961"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/ac_price_agreement.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/ac_price_agreement.csv",
+      "original_sha256": "7f24756c73c68f0193946a6f741452dda879b699ec4c5f3d8afccd3ee4841d9d"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/ac_price_summary.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/ac_price_summary.csv",
+      "original_sha256": "2733eb421d5fdb6dc5d196ba1eea22198e2718eda7ab73f9c05f4077fc2a786a"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/ac_sd_comparison.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/ac_sd_comparison.csv",
+      "original_sha256": "8f45e0d74e89066ca5021d63644b4c0f89ccb844a9eae1504774bd68a5486bed"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/ac_smooth_greeks.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/ac_smooth_greeks.csv",
+      "original_sha256": "5ab55ae147fbe73070976d3eb31d5117ed7ad7f40a72ad6333b9d288267bc40f"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/ac_smooth_sd_reduction.png",
+      "destination": "results/day7_greeks_trigger_smoothing/ac_smooth_sd_reduction.png",
+      "original_sha256": "0526a974c124b818ae57bd05ed5093778e85fcf58cfbe34b9de08d997039344c"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/ac_smooth_valuations.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/ac_smooth_valuations.csv",
+      "original_sha256": "6c8f89c1790377c270c54ee0542304956e8ad6cf83a9afd32720bec0f90862df"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/bridge_seed_dispersion.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/bridge_seed_dispersion.csv",
+      "original_sha256": "1878038221a2b9f9cbaf9877a7f4cfaa19e6c7b45571eee4523e16e6f922295b"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/bridge_seed_sensitivity.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/bridge_seed_sensitivity.csv",
+      "original_sha256": "af7e4d89c919463d8471fd4eb0791fac4d26d07d1c8921367a8ba809051f660e"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/bridge_seed_sensitivity_summary.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/bridge_seed_sensitivity_summary.csv",
+      "original_sha256": "c28801cf5ba0d2ef12c02c7df65281eecd69e6075be21ae07fccd9d5fe8f02e6"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/bump_plateau.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/bump_plateau.csv",
+      "original_sha256": "e5a389a8580e957738ae6de47846aaf028e08cc3ee1946d0517a3c94530acf79"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/gate_summary.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/gate_summary.csv",
+      "original_sha256": "fd68cc12cdd5f37714102395eb53463c3d0761115bca60beb464725b4f9f6a3d"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/greek_plateau_heatmap.png",
+      "destination": "results/day7_greeks_trigger_smoothing/greek_plateau_heatmap.png",
+      "original_sha256": "9d12492a59313cd753890b86581ff9348c3104085a4a0d01bb153a379c6fb11b"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/greek_replications.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/greek_replications.csv",
+      "original_sha256": "edd6d00c6e00efb9606b860feecf3794020eb1db6b48b55eabf0a8613fc0baa8"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/greek_summary.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/greek_summary.csv",
+      "original_sha256": "19afa25740b7d30b4607a5f11f1d5f3e006e37b8724b37b6f66f9aa05ea0cba4"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/m0_m3_active_sd_ratio.png",
+      "destination": "results/day7_greeks_trigger_smoothing/m0_m3_active_sd_ratio.png",
+      "original_sha256": "9c430c32ca4d86926abd70124671449a871fc42da554aa363631776d3ed902bd"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/plateau_rate.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/plateau_rate.csv",
+      "original_sha256": "af8d8586599515ed560d73244a7685fd76c61b361768c369d489c3004fb7688e"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/raw_valuations.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/raw_valuations.csv",
+      "original_sha256": "29072860e108d52dbccf87efc39db7f96d89cd6f79d0b0e3838710e9754e97b8"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/run_manifest.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/run_manifest.csv",
+      "original_sha256": "07d786918500bf09aaa735bc79c12e9ad6443645353c89b9112abdcb588e89ab"
+    },
+    {
+      "source": "outputs/day7_greeks_trigger_smoothing/scenario_definitions.csv",
+      "destination": "results/day7_greeks_trigger_smoothing/scenario_definitions.csv",
+      "original_sha256": "21cdb4a93bee4afae559426f6da55cb6f1f9a65722cc5c880a3d3a6c309fc663"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/audit_inventory.csv",
+      "destination": "results/day8_gpu_validation/audit_inventory.csv",
+      "original_sha256": "8afc067c78a41e6b2d9dd835fa06140d7a4715364377229987d336e695eae0f6"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/batched_greeks_agreement.png",
+      "destination": "results/day8_gpu_validation/batched_greeks_agreement.png",
+      "original_sha256": "e5f53f27b2dfa323170c56fdd0db10d223ff77db63022a0e8e08577fd3f7f70e"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/batched_greeks_timing.csv",
+      "destination": "results/day8_gpu_validation/batched_greeks_timing.csv",
+      "original_sha256": "7650b8c464206385195b2da598b1f7e2f0a8c8cb4b50988b5a90f916536b1a88"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/conditioned_cpu_gpu_agreement.csv",
+      "destination": "results/day8_gpu_validation/conditioned_cpu_gpu_agreement.csv",
+      "original_sha256": "88d58d3707b3a4573e34b015e01cd7d12936752b9e7fb719c673a8b6304e8cd1"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/conditioned_pipeline_timing.png",
+      "destination": "results/day8_gpu_validation/conditioned_pipeline_timing.png",
+      "original_sha256": "8da85da150184f9c7845322c7a47c9082660f0d46750c7e26e07575412e559de"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/conditioned_run_timings.csv",
+      "destination": "results/day8_gpu_validation/conditioned_run_timings.csv",
+      "original_sha256": "1efbe02244a3b54c881b743c3cc3ec88ff6c114d8feee31295a993a1520b4765"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/conditioned_segment_timings.csv",
+      "destination": "results/day8_gpu_validation/conditioned_segment_timings.csv",
+      "original_sha256": "a2e4f47a51e3ee029028abb7fa5b7589b1406695548c597e719b06022812087a"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/correlation_matrix.csv",
+      "destination": "results/day8_gpu_validation/correlation_matrix.csv",
+      "original_sha256": "9037dc4185f742d87af14f73f3f21de0041ea0ce0c94a9e8c028d18aa1cb6c55"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/cpu_gpu_core_evidence.png",
+      "destination": "results/day8_gpu_validation/cpu_gpu_core_evidence.png",
+      "original_sha256": "dc98bcc820a4d9134a6a683516194c7b17337a734e5649ab017ca8c362bd6430"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/cpu_gpu_correctness.csv",
+      "destination": "results/day8_gpu_validation/cpu_gpu_correctness.csv",
+      "original_sha256": "8c90645294a4f9e03fb9b2f5d2e5066d054da681ec2c294b1a4485b64299e2c2"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/cpu_gpu_performance_scaling.png",
+      "destination": "results/day8_gpu_validation/cpu_gpu_performance_scaling.png",
+      "original_sha256": "b2914a6ccf9f12d998f506bfcda28ed80c112364d226ee32d9a47e4fbc40f73c"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/DAY8_PRESENTATION_GUIDE.md",
+      "destination": "results/day8_gpu_validation/DAY8_PRESENTATION_GUIDE.md",
+      "original_sha256": "324f637909ce52221bd3bde6a4cde7a7b373d460afd7d2fa29999f80c77648f2"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/direct_run_timings.csv",
+      "destination": "results/day8_gpu_validation/direct_run_timings.csv",
+      "original_sha256": "2d769f1e5826a09b6a334b9cf891aabe7b0c98a71ce91a85edde334bbc0b6bc5"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/environment.csv",
+      "destination": "results/day8_gpu_validation/environment.csv",
+      "original_sha256": "af672df371a70874ea6284753e18c59afc75f42004744f0609104d8d4f9bf0c6"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/gate_summary.csv",
+      "destination": "results/day8_gpu_validation/gate_summary.csv",
+      "original_sha256": "9160772a6f9a04fa6c9d2647281549807be1ae19b58cd99af451329a6aac0df3"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/gpu_timing_breakdown.png",
+      "destination": "results/day8_gpu_validation/gpu_timing_breakdown.png",
+      "original_sha256": "bb29582d74331aa58bd37cfc355ff48287618c1b6687e423dc9c0736755e246f"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/greeks_cpu_gpu_agreement.csv",
+      "destination": "results/day8_gpu_validation/greeks_cpu_gpu_agreement.csv",
+      "original_sha256": "a5a679fc178649d21466d47c40336fef265815c083eafdfed2d1856e170de643"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/greek_scenario_prices.csv",
+      "destination": "results/day8_gpu_validation/greek_scenario_prices.csv",
+      "original_sha256": "cc04350f5f2e87b0549a335328fcbaae86fccac682f9fa3aa50850e040630b25"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/market_inputs.csv",
+      "destination": "results/day8_gpu_validation/market_inputs.csv",
+      "original_sha256": "6af14e3c090a24d6c3492aa727ed9efef4497beabff57f2fa917270e050cf36b"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/performance_scaling.csv",
+      "destination": "results/day8_gpu_validation/performance_scaling.csv",
+      "original_sha256": "6aeb1fff1645b07a0aaa3a77e8813042fa76c13ed5e373286cf816cd7b2b54d7"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/presentation_error_summary.csv",
+      "destination": "results/day8_gpu_validation/presentation_error_summary.csv",
+      "original_sha256": "e872815e507fc4f447c72974ee46af35ab0b0a7f1baa102a97b9861937a14057"
+    },
+    {
+      "source": "outputs/day8_gpu_validation/run_manifest.csv",
+      "destination": "results/day8_gpu_validation/run_manifest.csv",
+      "original_sha256": "0db42ad02a9b0f9747f92f2a9cdbe8d9ae16b5cad191964db5f550762cb4a567"
+    },
+    {
+      "source": "outputs/day9_main_experiments/accuracy_cost_and_interaction.png",
+      "destination": "results/day9_main_experiments/accuracy_cost_and_interaction.png",
+      "original_sha256": "0007dfb66f959b9df6174b79f2da5ea6b221c82e001239817dd1aa22202fbe0b"
+    },
+    {
+      "source": "outputs/day9_main_experiments/audit_inventory.csv",
+      "destination": "results/day9_main_experiments/audit_inventory.csv",
+      "original_sha256": "acce264d74e67819526d67b3201ef982c1fe35ca05d802e754a5e56a5b3e2c3f"
+    },
+    {
+      "source": "outputs/day9_main_experiments/baseline_method_summary.csv",
+      "destination": "results/day9_main_experiments/baseline_method_summary.csv",
+      "original_sha256": "560ce3c579d4bbb976fa6cdbaf8ca6f0e3affaf35eab24daac9246cd991e33d2"
+    },
+    {
+      "source": "outputs/day9_main_experiments/baseline_replications.csv",
+      "destination": "results/day9_main_experiments/baseline_replications.csv",
+      "original_sha256": "b2c53c9f1957b9bff43588f623241f1cadb320884e46ad1a90c88c31c7cb0206"
+    },
+    {
+      "source": "outputs/day9_main_experiments/correlation_matrix.csv",
+      "destination": "results/day9_main_experiments/correlation_matrix.csv",
+      "original_sha256": "9037dc4185f742d87af14f73f3f21de0041ea0ce0c94a9e8c028d18aa1cb6c55"
+    },
+    {
+      "source": "outputs/day9_main_experiments/cost_normalized_efficiency.png",
+      "destination": "results/day9_main_experiments/cost_normalized_efficiency.png",
+      "original_sha256": "51abc727abc2f21879abee1f06b33d416aa479086233c81e0cfd3cf5588473c2"
+    },
+    {
+      "source": "outputs/day9_main_experiments/DAY9_LITERATURE_METHOD_MAP.md",
+      "destination": "results/day9_main_experiments/DAY9_LITERATURE_METHOD_MAP.md",
+      "original_sha256": "abc9868a46f3922dc35eb94f2f451f8b22e62239e79432802ff9d3384c00d5ac"
+    },
+    {
+      "source": "outputs/day9_main_experiments/empirical_convergence_and_time_to_target.csv",
+      "destination": "results/day9_main_experiments/empirical_convergence_and_time_to_target.csv",
+      "original_sha256": "a51a884a5ef2d20e7224e79355b3f1221042b60f98db7b39e9ee574604e229ef"
+    },
+    {
+      "source": "outputs/day9_main_experiments/environment.csv",
+      "destination": "results/day9_main_experiments/environment.csv",
+      "original_sha256": "e01247a4fcf8d6ae0e82bb8564d4cbeab53cf1e542759f250ed55ad8afc0d8df"
+    },
+    {
+      "source": "outputs/day9_main_experiments/fair_coupon_regime_sensitivity.png",
+      "destination": "results/day9_main_experiments/fair_coupon_regime_sensitivity.png",
+      "original_sha256": "4a00694c51ef4706dc0a84b28b9a25ba7c514edac9e7af3cb776b6b3e7b0ef21"
+    },
+    {
+      "source": "outputs/day9_main_experiments/fair_coupon_time_to_target.csv",
+      "destination": "results/day9_main_experiments/fair_coupon_time_to_target.csv",
+      "original_sha256": "b159e49089994617fdefd4b0c819ecdabefcf192ff5522c38dde468ab5013d9b"
+    },
+    {
+      "source": "outputs/day9_main_experiments/gate_summary.csv",
+      "destination": "results/day9_main_experiments/gate_summary.csv",
+      "original_sha256": "695bb95caca8a47e569d124401b24b274802de6f0322db8822949fa9af8f5352"
+    },
+    {
+      "source": "outputs/day9_main_experiments/greek_time_to_target.csv",
+      "destination": "results/day9_main_experiments/greek_time_to_target.csv",
+      "original_sha256": "ee7b087fcf0a1d5105234e73743a6b682c10db9f3e64f3777fa2488823e87aad"
+    },
+    {
+      "source": "outputs/day9_main_experiments/greek_time_to_target.png",
+      "destination": "results/day9_main_experiments/greek_time_to_target.png",
+      "original_sha256": "dec638dedc15da428ba2bb6b9e9c444557a5e8e1016caadc190b4f2415e320cf"
+    },
+    {
+      "source": "outputs/day9_main_experiments/MAIN_EXPERIMENT_PRESENTATION_GUIDE.md",
+      "destination": "results/day9_main_experiments/MAIN_EXPERIMENT_PRESENTATION_GUIDE.md",
+      "original_sha256": "2926503d53c7328935e58319362a0cf5d9527c87c82b10b0d199eb7ad5394d61"
+    },
+    {
+      "source": "outputs/day9_main_experiments/market_inputs.csv",
+      "destination": "results/day9_main_experiments/market_inputs.csv",
+      "original_sha256": "208c74e693230bda2e41f06d2573b574c06098eb08c6faf781e8d273801fdf06"
+    },
+    {
+      "source": "outputs/day9_main_experiments/pareto_frontier.csv",
+      "destination": "results/day9_main_experiments/pareto_frontier.csv",
+      "original_sha256": "c772948ce58a69fa2a663b99d97a15fc0c072c3db7ca0b37fb2d7b866c3ed52e"
+    },
+    {
+      "source": "outputs/day9_main_experiments/reference_replications.csv",
+      "destination": "results/day9_main_experiments/reference_replications.csv",
+      "original_sha256": "d77ad4aa78b9bb754d079e0e13239b2ac2c016f2a6ebe827dfe5b455b3847c77"
+    },
+    {
+      "source": "outputs/day9_main_experiments/reference_summary.csv",
+      "destination": "results/day9_main_experiments/reference_summary.csv",
+      "original_sha256": "a65f658681f33982dbf691dbe8b030e8de1e2bf3ff89b6caf9e975a13485b286"
+    },
+    {
+      "source": "outputs/day9_main_experiments/regime_replications.csv",
+      "destination": "results/day9_main_experiments/regime_replications.csv",
+      "original_sha256": "3e349d9dcdc2e6d82320ff3db4e54aae63078a92e551defed1c86f178789d6c5"
+    },
+    {
+      "source": "outputs/day9_main_experiments/regime_summary.csv",
+      "destination": "results/day9_main_experiments/regime_summary.csv",
+      "original_sha256": "1b826429c76c1d5252d8595843647aeb67f20c25e848ab83613e01afdc779645"
+    },
+    {
+      "source": "outputs/day9_main_experiments/rqmc_conditioning_interaction.csv",
+      "destination": "results/day9_main_experiments/rqmc_conditioning_interaction.csv",
+      "original_sha256": "2c295f7ad018310c52c3210f00bedf0a564247b6069946a25f8df9f1dac54f92"
+    },
+    {
+      "source": "outputs/day9_main_experiments/run_manifest.csv",
+      "destination": "results/day9_main_experiments/run_manifest.csv",
+      "original_sha256": "85aae448a7cf21ec83ac04cf65276990734ce01cca1f9cce7cbe853f07f88a9f"
+    },
+    {
+      "source": "outputs/day9_main_experiments/sampling_monitoring_approximation_evidence.png",
+      "destination": "results/day9_main_experiments/sampling_monitoring_approximation_evidence.png",
+      "original_sha256": "4c7cacd9fd13142a6b6796871b13307044331b48a207e544a0c7dd4ec2a4f62f"
+    },
+    {
+      "source": "outputs/day9_main_experiments/trigger_smoothing_regime_map.png",
+      "destination": "results/day9_main_experiments/trigger_smoothing_regime_map.png",
+      "original_sha256": "64ad10397226f4754b49ec8cb2c126c286df29336ccbb7ae99b5dbcbdc615a27"
+    },
+    {
+      "source": "outputs/day9_main_experiments/trigger_smoothing_replications.csv",
+      "destination": "results/day9_main_experiments/trigger_smoothing_replications.csv",
+      "original_sha256": "b112943e3136b99092ac22fc56a4625f1131e53552da50500bc1db51600eba3a"
+    },
+    {
+      "source": "outputs/day9_main_experiments/trigger_smoothing_summary.csv",
+      "destination": "results/day9_main_experiments/trigger_smoothing_summary.csv",
+      "original_sha256": "d31ced3c2236e0ef6d01f8455939abed85c6028edd16febb95f3a0b8117a397f"
+    },
+    {
+      "source": "PROJECT_STATUS.md",
+      "destination": "docs/research-status-2026-08-11.md",
+      "original_sha256": "bf7ea41b9f603006f683dc52612b6e1f41ac66afa8ba603aacda6160540eaa66"
+    },
+    {
+      "source": "Autocallable_RQMC_Project_Plan.md",
+      "destination": "docs/research-plan.md",
+      "original_sha256": "e0456aa0fd0b0e8abafe35ac7e587642bd68bff1c10087fcf226a3493640e849"
+    }
+  ]
+}

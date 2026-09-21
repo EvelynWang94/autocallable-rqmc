@@ -1,0 +1,89 @@
+{
+  "schema_version": "1.0",
+  "status": "frozen-for-day8-execution",
+  "project_day": 8,
+  "contract_id": "RC-A",
+  "precision": "float64",
+  "random_input_policy": {
+    "cpu_gpu_correctness": "identical host-side independent normals",
+    "m0": "NumPy PCG64 Monte Carlo",
+    "m1": "SciPy Owen-scrambled Sobol transformed by inverse normal",
+    "m2": "Monte Carlo observation endpoints plus conditioned bridge weights",
+    "m3": "scrambled-Sobol observation endpoints plus conditioned bridge weights",
+    "greeks": "common random numbers across every base/plus/minus scenario"
+  },
+  "implementation_boundary": {
+    "m0_m1": "path evolution, event logic, payoff decomposition and reduction on CUDA through CuPy",
+    "m2_m3": "hybrid: endpoint GBM, marginal bridge probability and nested q3 counts on CUDA; exact non-integer Bessel h_ij and event loop on CPU",
+    "reason_for_hybrid": "CuPy 14.1 does not expose scipy.special.ive; the validated Lee bivariate formula is retained in SciPy rather than replaced by an unvalidated approximation",
+    "ac_smooth": "not promoted into the full-product GPU core; Day 7 remains a local next-observation diagnostic"
+  },
+  "correctness": {
+    "n_paths": 2048,
+    "steps_per_year": 252,
+    "methods": ["M0", "M1"],
+    "seed": 81001,
+    "batch_size": 2048
+  },
+  "performance": {
+    "method": "M0",
+    "steps_per_year": 52,
+    "path_grid": [512, 2048, 8192, 32768, 131072],
+    "seed_base": 82000,
+    "batch_size": 131072,
+    "steady_state_warmup_repetitions": 2,
+    "break_even_definition": "smallest tested N with CPU total wall time / GPU total wall time greater than 1"
+  },
+  "batched_greeks": {
+    "method": "M1",
+    "n_paths": 4096,
+    "steps_per_year": 52,
+    "seed": 83001,
+    "spot_relative_bump": 0.005,
+    "volatility_absolute_bump": 0.005,
+    "scenario_count": 13,
+    "batch_size": 4096
+  },
+  "conditioned": {
+    "methods": ["M2", "M3"],
+    "n_paths": 256,
+    "seed_base": 84000,
+    "bridge_bank_seed": 84500,
+    "inner_paths": 64,
+    "bridge_substeps": 8,
+    "bessel_terms": 12
+  },
+  "tolerances": {
+    "direct_component_absolute": 1e-10,
+    "direct_total_value_absolute": 1e-10,
+    "conditioned_component_absolute": 1e-9,
+    "greek_absolute": 1e-8,
+    "component_identity_absolute": 1e-10,
+    "probability_mass_absolute": 1e-10,
+    "fair_coupon_root_absolute": 1e-10,
+    "final_probability_bound_violation_rate": 0.0
+  },
+  "required_timing_fields": [
+    "compile_warmup_seconds",
+    "random_input_seconds",
+    "transfer_seconds",
+    "pricing_kernel_seconds",
+    "reduction_seconds",
+    "total_wall_seconds",
+    "paths_per_second",
+    "peak_memory_pool_bytes",
+    "probability_g_seconds",
+    "probability_h_bessel_cpu_seconds",
+    "probability_q3_seconds",
+    "nested_gpu_kernel_seconds"
+  ],
+  "gate_policy": {
+    "gpu_available": true,
+    "all_cpu_gpu_agreement_gates": true,
+    "all_schema_identity_gates": true,
+    "all_required_timings_present": true,
+    "speedup_is_reported_not_forced": true,
+    "literature_speedups_are_not_acceptance_targets": true
+  },
+  "evidence_directory": "outputs/day8_gpu_validation"
+}

@@ -1,0 +1,11 @@
+gate,observed,threshold,pass
+baseline_inventory_complete,256.0,256.0,True
+reference_replications_complete,24.0,24.0,True
+regime_cells_have_r16,16.0,16.0,True
+component_identity,1.4210854715202004e-14,1e-10,True
+probability_mass,0.0,1e-10,True
+fair_coupon_root,0.0,1e-10,True
+interaction_grid_complete,4.0,4.0,True
+trigger_smoothing_price_agreement,15.0,15.0,True
+formal_figure_names_exclude_day_labels,0.0,0.0,True
+full_project_pytest,0.0,0.0,True

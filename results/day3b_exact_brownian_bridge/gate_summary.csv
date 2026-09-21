@@ -1,0 +1,8 @@
+criterion,observed,pass
+conditional bridge-weighted price matches continuous analytic price,max |bias|=0.008423; tolerance=0.025,True
+Bernoulli bridge and conditional weight have no systematic difference,max |paired z|=2.023; absolute/3SE rule,True
+direct monitoring bias is positive and shrinks from M=12 to M=504,bias M12=1.712233; M504=0.315855,True
+sampling uncertainty and monitoring bias are separately reported,sampling SD shrinks in 100.0% of method/sampling/M groups; full MxN grid saved,True
+Delta and Vega agree with analytic finite differences,Delta max error=0.008690; Vega max error=0.003061,True
+Gamma reaches a bump plateau or instability is fully documented,plateau=False; range=0.006852; max error=0.010150; grid_complete=True,True
+required M and N grids are complete,"M=[np.int64(12), np.int64(24), np.int64(52), np.int64(104), np.int64(252), np.int64(504)]; N=[np.int64(1024), np.int64(4096), np.int64(16384), np.int64(65536)]",True

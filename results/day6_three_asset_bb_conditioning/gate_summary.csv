@@ -1,0 +1,9 @@
+gate,metric,threshold,pass
+Day 6 unit tests,returncode=0,0,True
+M0-M3 large-budget price agreement,max_abs_diff=0.356807,scenario tolerance >= 1.25/100,True
+paired Bernoulli bridge vs conditional weight,max_abs_mean_diff=0.050097,"max(0.35, 3 SE)",True
+correlation to zero and permutation invariance,max_error=4.374e-14,individual tolerances,True
+probability bounds and numerical underflow,final_violation=0.000e+00; underflow=0,0; projection explicitly audited,True
+fresh nested approximation error,max_RMSE=0.000532; max_abs=0.002604,RMSE <= 0.03; max abs <= 0.10,True
+q3 feasible-projection magnitude,max_mean=0.000170; max_p99=0.008775; observed_max=0.058331,mean <= 0.005; p99 <= 0.02; maximum retained as warning,True
+cash-flow identities and fair-coupon roots,identity=2.842e-14; mass=0.000e+00; root=0.000e+00,all <= 1e-10,True

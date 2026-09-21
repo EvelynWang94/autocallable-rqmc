@@ -1,0 +1,16 @@
+field,value
+status,PASS
+executed_at,2026-08-11T11:28:11.251402
+baseline_path_grid,1024;4096;16384;65536
+baseline_replications,16
+reference_paths,262144
+reference_replications,24
+reference_price,99.33688783086721
+reference_price_se,0.0015414111108912646
+interaction_ratio_min,0.950328723407741
+interaction_ratio_max,2.746140553130453
+interaction_points_above_one,3
+trigger_vrf_max,29858.114610816992
+gpu_break_even_n_from_day8,8192
+glynn_whitt_use,variance-times-total-cost and empirical budget-rate diagnostics
+wang_use,axis-aligned next-observation conditional smoothing with severity stratification

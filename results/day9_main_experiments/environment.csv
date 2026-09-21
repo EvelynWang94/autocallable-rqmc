@@ -1,0 +1,2 @@
+python_version,numpy_version,cupy_available,cuda_device_count,precision,cupy_version,device_name,compute_capability,device_memory_total_bytes,device_memory_free_bytes_at_probe,cuda_runtime_version,cuda_driver_version,compile_and_pipeline_warmup_seconds,warmup_status
+3.13.5,2.2.2,True,1,float64,14.1.1,NVIDIA GeForce RTX 4060 Laptop GPU,8.9,8585216000,7427063808,12090,12070,1.973310500034131,PASS

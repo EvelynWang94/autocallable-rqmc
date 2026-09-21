@@ -1,0 +1,4 @@
+pair,conditioning asset i,conditioning asset j,target asset,intercept,coef x1,coef x2,coef x3,candidate n,effective n,positive rate,solver,regularisation,preprocessing,training seed,training steps
+h12,1,2,3,0.20059253173461822,-2.5811732356149095,-2.594770886749029,23.80444211391922,100000,26396,0.6666161539627217,scipy.optimize.minimize L-BFGS-B,none,standardised,20260731,25
+h13,1,3,2,0.1601001110986373,-2.4829817600382693,24.166771950699918,-2.4839949495239275,100000,26563,0.6624251778790047,scipy.optimize.minimize L-BFGS-B,none,standardised,20260731,25
+h23,2,3,1,0.1802530276159675,23.223253132184706,-2.200930574832554,-2.519161054319122,100000,26313,0.6687188842017254,scipy.optimize.minimize L-BFGS-B,none,standardised,20260731,25

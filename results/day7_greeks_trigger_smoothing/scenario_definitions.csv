@@ -1,0 +1,3 @@
+scenario,contract_id,maturity_years,first_observation_years,initial_spot_1,initial_spot_2,initial_spot_3,active_asset,ki_barrier,description,claim_boundary
+near-KI,RC-A,2.0082191780821916,0.26301369863013696,0.765,1.0,1.0,1,0.75,RC-A at issue-style horizon; asset 1 just above continuous KI,stylised market-informed research contract; not HSBC 40447DKU1 and not an issuer or dealer market price
+near-autocall,RC-A-NEAR-AC,1.5013698630136985,0.005479452054794521,1.004,1.001,0.998,3,0.75,RC-A remaining life; two days to first remaining autocall,stylised market-informed research contract; not HSBC 40447DKU1 and not an issuer or dealer market price; remaining-life diagnostic conditional on no prior KI and no accrued coupon memory

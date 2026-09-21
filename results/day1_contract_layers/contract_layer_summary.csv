@@ -1,0 +1,4 @@
+Layer,ID,Label,KI monitoring,Claim boundary
+market_case,HSBC-40447DKU1,HSBC maturity-only note,maturity only,issuer term-sheet and market-data case; not the continuous-KI research contract
+research_contract,RC-L,Lee reproduction contract,continuous,research reproduction contract; never presented as the HSBC security
+research_contract,RC-A,Market-informed applied continuous-KI contract,continuous,stylised market-informed research contract; not HSBC 40447DKU1 and not an issuer or dealer market price

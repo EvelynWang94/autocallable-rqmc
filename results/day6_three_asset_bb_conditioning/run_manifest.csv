@@ -1,0 +1,15 @@
+field,value
+status,PASS
+direct_paths,2048
+direct_replications,4
+direct_steps_per_year,252
+conditioned_paths,2048
+conditioned_replications,6
+inner_paths,256
+bridge_substeps,16
+reference_inner_paths,4096
+reference_substeps,64
+bessel_terms,12
+day4_logistic_reused,False
+fallback,fresh scrambled-Sobol nested conditional bridge bank; median of three exact-h anchored conditional ratios
+source_paper,"Lee et al. (2024), N.A.J.E.F. 73, 102174"

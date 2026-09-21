@@ -1,0 +1,3 @@
+contract_id,label,principal,maturity_years,observation_count,coupon_mode,coupon_memory,ki_barrier_ratio,first_autocall_time,claim_boundary
+RC-L,Lee reproduction contract,100.0,3.0,6,simple_to_redemption,False,0.45,0.5,research reproduction contract; never presented as the HSBC security
+RC-A,Market-informed applied continuous-KI contract,100.0,2.0082191780821916,8,memory_periodic,True,0.75,0.5123287671232877,stylised market-informed research contract; not HSBC 40447DKU1 and not an issuer or dealer market price

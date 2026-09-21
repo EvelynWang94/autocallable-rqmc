@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0",
+  "status": "frozen-for-day9-execution",
+  "project_day": 9,
+  "contract_id": "RC-A",
+  "evidence_directory": "outputs/day9_main_experiments",
+  "seed": 20260809,
+  "baseline": {
+    "methods": ["M0", "M1", "M2", "M3"],
+    "path_grid": [1024, 4096, 16384, 65536],
+    "replications": 16,
+    "direct_steps_per_year": 52,
+    "direct_batch_size": 131072,
+    "conditioned_inner_paths": 64,
+    "conditioned_bridge_substeps": 8,
+    "bessel_terms": 12
+  },
+  "reference": {
+    "method": "M3",
+    "n_paths": 262144,
+    "replications": 24,
+    "conditioned_inner_paths": 64,
+    "conditioned_bridge_substeps": 8,
+    "bessel_terms": 12,
+    "definition": "pooled high-budget M3 reference; Day 6 approximation-bias audit remains separate"
+  },
+  "regimes": {
+    "methods": ["M0", "M3"],
+    "n_paths": 4096,
+    "replications": 16,
+    "correlation": {
+      "low_equicorrelation": 0.25,
+      "baseline": "market",
+      "high_equicorrelation": 0.9
+    },
+    "volatility_scales": [0.75, 1.0, 1.25],
+    "ki_barriers": {
+      "far": 0.6,
+      "medium": 0.75,
+      "near": 0.9
+    },
+    "parameterisations": ["symmetric_lee", "asymmetric_hsbc_informed"]
+  },
+  "trigger_smoothing": {
+    "n_paths": 4096,
+    "replications": 16,
+    "method": "rqmc",
+    "worst_spot_grid": [0.98, 0.995, 1.0, 1.005, 1.02],
+    "time_to_observation_days": [2, 14, 60],
+    "other_spot_ratios": [1.01, 1.015],
+    "trigger_ratio": 1.0,
+    "scope": "next-observation autocall principal redemption component only"
+  },
+  "targets": {
+    "price_rmse_per_100": 0.05,
+    "fair_coupon_rmse_annual_rate": 0.001,
+    "greek_replication_sd": {
+      "Delta": 0.1,
+      "Vega": 0.05,
+      "Gamma": 0.1
+    }
+  },
+  "acceptance": {
+    "component_identity_absolute": 1e-10,
+    "probability_mass_absolute": 1e-10,
+    "fair_coupon_root_absolute": 1e-10,
+    "minimum_baseline_replications": 16,
+    "minimum_reference_replications": 24,
+    "minimum_timing_repetitions": 3,
+    "trigger_price_z_tolerance": 4.0,
+    "trigger_price_floor_tolerance_per_100": 0.05,
+    "required_interaction_points": 4,
+    "all_formal_figures_must_exclude_day_labels": true
+  },
+  "literature_use": {
+    "glynn_whitt_1992": "rank estimators by convergence rate and inverse variance-times-cost, not VRF alone",
+    "wang_2016": "stratify discontinuity severity and test axis-aligned conditional smoothing near autocall triggers"
+  }
+}
